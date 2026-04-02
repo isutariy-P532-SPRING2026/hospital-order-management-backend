@@ -75,7 +75,6 @@ mvn test
 ## Project Structure
 
 ```
-
 src/main/java/com/healthcare/ordermanagement/
 ├── domain/          # Order, OrderType, Priority, OrderStatus
 ├── pattern/
@@ -89,3 +88,15 @@ src/main/java/com/healthcare/ordermanagement/
 ├── manager/         # OrderManager
 └── client/          # OrderController, FulfilmentController, AuditController
 ```
+
+## Design Document
+
+The full design document with diagrams is in **DesignDocument.pdf** in this repository.
+
+Open it in a browser to view:
+
+- Layered component diagram (all 6 layers)
+- Call chain — Submit Order (all 5 patterns firing)
+- Call chain — Fulfil Order (Claim + Complete)
+- Design pattern justifications table
+  
